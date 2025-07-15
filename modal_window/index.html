@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal window</title>
+    <link rel="shortcup icon" href="js111.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="modal">
+      <h1 class="modal__title">Заголовок модального окна</h1>
+      <button class="modal__close modal__x">&#10006</button>
+      <p class="modal__descr">
+        Далеко-далеко за словесными горами, в стране гласных и согласных живут
+        рыбные тексты. Текстами продолжил родного дороге он эта инициал
+        подзаголовок первую жаренные.
+      </p>
+      <div class="modal__images">
+        <img
+          class="img"
+          src="https://source.unsplash.com/random/800x600/?nature"
+          alt=""
+        />
+      </div>
+      <div class="modal__random-image">
+        <button class="modal__btn-random">Обновить изображение</button>
+        <button class="modal__close modal__close--btn">Закрыть</button>
+      </div>
+    </div>
+    <div class="overlay"></div>
+    <button class="btn">Показать модальное окно</button>
+  </body>
+</html>
