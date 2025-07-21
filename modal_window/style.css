@@ -104,6 +104,7 @@ button {
 }
 
 .btn {
+  position: relative;
   padding: 1rem;
   background-color: #67686e;
   color: white;
@@ -125,4 +126,9 @@ button {
 
 .hidden {
   display: none;
+}
+
+input {
+  padding: 2rem;
+  font-size: 3rem;
 }
