@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  font-weight: 500;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  background-color: #e7ecea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
