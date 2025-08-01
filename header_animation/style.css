@@ -57,7 +57,7 @@ nav {
 
 .link {
   font-size: 2rem;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .head {
