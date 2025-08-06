@@ -65,6 +65,8 @@ const updateSliderDots = () => {
   })
 }
 
+updateSliderDots()
+
 // Добавляем обработчики событий для точек слайдера
 dots.forEach((dot, index) => {
   dot.addEventListener('click', () => {
