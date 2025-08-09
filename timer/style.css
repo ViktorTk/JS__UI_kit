@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 500;
+  background-color: #252525;
+  color: #fff;
+}
+
+a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  color: #252525;
+}
+
+button {
+  display: block;
+  border: none;
+  background-color: transparent;
+}
+
+header {
+  background-color: #fff;
+  padding: 0 4rem;
+  margin-bottom: 10rem;
+}
+
+nav {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.sale {
+  position: relative;
+  padding: 2rem 1rem;
+  background-color: #eceb98;
+  min-height: 7rem;
+  color: #000;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.sale__p {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.block {
+  background-color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.block div {
+  width: 40rem;
+  height: 30rem;
+  background-color: #252525;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  row-gap: 2rem;
+}
+
+.block div p {
+  text-decoration: line-through;
+}
+
+.hidden {
+  display: none;
+}
