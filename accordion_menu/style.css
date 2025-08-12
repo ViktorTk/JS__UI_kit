@@ -46,6 +46,7 @@ body {
 
 .plus {
   font-size: 2rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .plus.rotate {

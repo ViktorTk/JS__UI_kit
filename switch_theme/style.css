@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #333;
+  padding: 1rem 2rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+header {
+  padding: 1rem;
+  background-color: #f1f1f1;
+  margin-bottom: 3rem;
+}
+
+nav {
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 1rem;
+  cursor: pointer;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  font-size: 1.7rem;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.block div {
+  background-color: #f1f1f1;
+  padding: 2rem;
+  width: 40rem;
+}
+
+.block div p {
+  font-size: 2.5rem;
+}
+
+.block__p {
+  font-size: 2.4rem;
+  padding: 2rem;
+  line-height: 3rem;
+  border: 0.4rem solid #ff0000;
+  background-color: #f1f1f1;
+  color: #222;
+  text-align: center;
+}
+
+/* темная тема */
+
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+.dark-mode p,
+.dark-mode a {
+  color: #eee;
+}
+
+.dark-mode header {
+  background-color: #000;
+}
+
+.dark-mode header .btn {
+  background-color: #f1f1f1;
+  color: #222;
+}
+
+.dark-mode .block div {
+  background-color: #000;
+}
+
+.dark-mode .block__p {
+  background-color: #000;
+  border-color: #fff;
+}
