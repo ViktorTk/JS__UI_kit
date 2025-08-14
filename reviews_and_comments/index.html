@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Отзывы и комментарии</title>
+    <link rel="shortcup icon" href="../js_logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="block">
+        <h1 class="block__h1">Василий Гудомаров</h1>
+        <p class="block__p">оценка:</p>
+        <p class="block__comment">комментарии:</p>
+        <p class="block__comment-user">
+          Далеко-далеко за словесными горами в стране гласных и согласных живут
+          рыбные тексты. Щеке, алфавит о все приставка предупредила дал
+          продолжил строчка одна.
+        </p>
+        <div class="block__date">10 апреля 2024 г в 19:48</div>
+      </div>
+
+      <div class="block">
+        <h1 class="block__h1">Марк Гудомаров</h1>
+        <p class="block__p">оценка:</p>
+        <p class="block__comment">комментарии:</p>
+        <p class="block__comment-user">
+          Далеко-далеко за словесными горами в стране гласных и согласных живут
+          рыбные тексты. Щеке, алфавит о все приставка предупредила дал
+          продолжил строчка одна.
+        </p>
+        <div class="block__date">2 апреля 2024 г в 11:12</div>
+      </div>
+
+      <button class="add-comment">написать комментарий</button>
+
+      <form action="#" class="form hidden">
+        <input placeholder="имя" type="text" class="form__input-name" />
+        <input placeholder="фамилия" type="text" class="form__input-surname" />
+
+        <textarea placeholder="комментарий" class="form__textarea"></textarea>
+
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <span class="spanNumberRating"></span>
+        </div>
+        <div class="buttons">
+          <button class="send">отправить</button>
+          <button class="close">закрыть</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
