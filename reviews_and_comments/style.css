@@ -73,3 +73,107 @@ i {
   top: 1rem;
   right: 1rem;
 }
+
+.add-comment {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 1rem 3rem;
+  background-color: #ff9c1a;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  transition: all 0.2s ease-in;
+  font-weight: 600;
+}
+
+.add-comment:hover {
+  transform: scale(1.1);
+  background-color: #4f5cd3;
+  color: #fff;
+}
+
+.form {
+  width: 35rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form input {
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.form__textarea {
+  resize: vertical;
+  width: 100%;
+  padding: 2rem 1rem;
+  font-size: 1.8rem;
+  font-style: italic;
+  outline: none;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.buttons {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.buttons button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: #4f5cd3;
+  color: #fff;
+  transition: all 0.2s ease-in;
+}
+
+.send:hover {
+  background-color: green;
+}
+
+.close:hover {
+  background-color: #161c53;
+}
+
+/*  */
+
+.spanstar {
+  color: #ff9c1a;
+}
+
+.buttons-block {
+  max-width: 30rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  column-gap: 2rem;
+}
+
+.btn1,
+.bnt2 {
+  width: 100%;
+  padding: 1rem;
+  background-color: #161c53;
+  color: #fff;
+  border: none;
+  font-size: 1.8rem;
+}
+
+.hidden {
+  display: none;
+}
