@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Обработка формы с асинхронной отправкой</title>
+    <link rel="shortcup icon" href="../js_logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <form class="contact">
+        <div class="form-group">
+          <label for="name">Имя</label>
+          <input type="text" required />
+          <label for="name">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            required
+          />
+        </div>
+        <button type="submit" class="btn">отправить</button>
+      </form>
+    </div>
+
+    <div class="modal">
+      <div class="modal-content">
+        <p>Ваше сообщение было отправлено успешно</p>
+        <span class="close">&times;</span>
+      </div>
+    </div>
+  </body>
+</html>
